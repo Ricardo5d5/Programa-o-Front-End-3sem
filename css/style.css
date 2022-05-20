@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif; 
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #87FF4F;
+}
+
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 10px 8px;
+}
+
+
+.cabecalho h1{
+    color: #FFAD42;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 10px 8%;
+}
+
+
+.listaSensor li{
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+
+.listaSensor a{
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.listaSensor a:hover{
+    color: #87FF4F
+}
+
+
+.infosEsquerda{
+    background-color: #FFFFFF;
+    float: left;
+    line-height: 1.5;
+}
+
+.infosDireita{
+    background-color: #FFFFFF;
+    float: right;
+    line-height: 1.5;
+}
+
+i#botaoConfig{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+i#botaoConfig:hover{
+    color: #87FF4F; 
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 10px 8%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape p{
+    float: left;
+    color: #000000;
+}
+
+.rodape img{
+    float: right;
+    max-width: 50px;
+    max-height: 50px;
+}
